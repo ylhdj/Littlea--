@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/* 统一样式 */
+			*{margin: 0;padding: 0;}
+			a{text-decoration: none;color: black}
+			li{list-style: none;float: left;}
+			/* 校徽 */
+			#校徽{margin-top: 10px; float: left;margin-left:450px ;}
+			/* 顶部右侧导航 */
+			#top{float: right;margin-right:450px ;margin-top: 40px; }
+			.tops{border-left:1px #000000 solid; padding: 0 15px;font-size: 12px ;font-family:  微软雅黑 宋体;}
+			/* 导航栏 */
+			#导航{margin-top: 10px; height: 45px;background-color: #9A0000;float: left;width: 100%;clear: both;}
+			#导航 li a{color: white;}
+			.一级菜单{padding:0 15px ;line-height: 45px;position: relative;}
+			#二级菜单 {position: absolute;top: 45px;left: -15px;}
+			#二级菜单 li{ border-bottom:1px grey dashed ; padding: 2px  15px ; height: 40px; display: none; float: none;width: 100px;text-align: center;background-color: #9A0000 ;}
+			#导航 a:hover{color: orange;}
+			#导航 .一级菜单:hover #二级菜单  li{display: block;}
+			/* 资讯 */
+			#学校新闻,#媒体工大{ width: 300px;height: 230px;margin-left: 450px;margin-top: 10px;display: inline-block;}
+			#教务通知, #图片新闻,#不忘初心,#学生工作{margin-left: 40px; width: 300px;height: 230px;margin-top: 10px;display: inline-block;}
+			#学校新闻 ul,#不忘初心 ul,#媒体工大 ul,#学生工作 ul,#教务通知 ul{margin-left: 15px;}
+			#学校新闻 li,#不忘初心 li,#媒体工大 li,#学生工作 li,#教务通知 li{float: none;list-style: square;margin: 10px;}
+			#背景{background-image: url(%7B8Y8W~0BY_%7DZ_I48UUBM$CJ1.png); background-position:0 37px;background-repeat: no-repeat;}
+			/* 图片 */
+			#t1{background-color: #FFE1E1;font-size: 12px; display: inline-block;width: 10px;text-align: center;}
+			#t2,#t3{background-color: #F0F0F0;font-size: 12px; display: inline-block;width: 10px;text-align: center;}
+			#btn{position: relative;top: -10px;left:-30px ;}
+			/* 底部 */
+			#底部{background-color: #9A0000;width: 100%;height: 85px;}
+			#底部 a,#底部 span{ color: white;font-size: 12px;font-family: 微软雅黑;text-align: center; line-height: 85px;}
+		</style>
+		<meta charset="utf-8">
+		<title>广东工业大学</title>
+	</head>
+	<body>
+		<div style="height: 1px;width: 100%;float: left;clear: both;background-color: #9A0000;"></div>
+		<div id="校徽"><img src="logo-2.png" alt=""></div>
+		<div id="top">
+			<span class="tops" style="border: 0;"><a href="#">International Students</a></span>
+			<span class="tops"><a href="#">English</a></span>
+			<span class="tops"><a href="#">期刊投稿</a></span>
+			<span class="tops"><a href="#">网上办事大厅</a></span>
+		</div>
+		<div id="导航">
+			<ul>
+				<li class="一级菜单" style="margin-left:420px ;">
+					<a href="#">学校概况</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">学习简介</a></li>
+						<li><a href="#" class="二级菜单">学习领导</a></li>
+						<li><a href="#" class="二级菜单">学校章程</a></li>
+						<li><a href="#" class="二级菜单">基本数据</a></li>
+						<li><a href="#" class="二级菜单">历史沿革</a></li>
+						<li><a href="#" class="二级菜单">机构设置</a></li>
+						<li><a href="#" class="二级菜单">校区分布</a></li>
+						<li><a href="#" class="二级菜单">网上校史馆</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">新闻通知</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">学校新闻</a></li>
+						<li><a href="#" class="二级菜单">校内通知</a></li>
+						<li><a href="#" class="二级菜单">公示公告</a></li>
+						<li><a href="#" class="二级菜单">校内简讯</a></li>
+						<li><a href="#" class="二级菜单">学校公文</a></li>
+						<li><a href="#" class="二级菜单">学习OA</a></li>
+						<li><a href="#" class="二级菜单">2018校庆</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">教学工作</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">本科教育</a></li>
+						<li><a href="#" class="二级菜单">研究生教育</a></li>
+						<li><a href="#" class="二级菜单">继续教育</a></li>
+						<li><a href="#" class="二级菜单">实验室教育</a></li>
+						<li><a href="#" class="二级菜单">实验教学</a></li>
+						<li><a href="#" class="二级菜单">国际文化教育</a></li>
+						<li><a href="#" class="二级菜单">精品课程</a></li>
+						<li><a href="#" class="二级菜单">新云课堂</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">科学研究</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">科技信息</a></li>
+						<li><a href="#" class="二级菜单">人文社科</a></li>
+						<li><a href="#" class="二级菜单">协同创新</a></li>
+						<li><a href="#" class="二级菜单">可拓学</a></li>
+						<li><a href="#" class="二级菜单">创新创业</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">招生就业</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">本科招生</a></li>
+						<li><a href="#" class="二级菜单">学校专业</a></li>
+						<li><a href="#" class="二级菜单">研究生招生</a></li>
+						<li><a href="#" class="二级菜单">工商管理硕士</a></li>
+						<li><a href="#" class="二级菜单">继续教育招生</a></li>
+						<li><a href="#" class="二级菜单">中外合作办学</a></li>
+						<li><a href="#" class="二级菜单">国际学生</a></li>
+						<li><a href="#" class="二级菜单">就业信息</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单"><a href="#">图书馆</a></li>
+				<li class="一级菜单">
+					<a href="#">招标招聘</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">人才招聘</a></li>
+						<li><a href="#" class="二级菜单">招标公告</a></li>
+						<li><a href="#" class="二级菜单">招投标信息</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">校园文化</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">数字校报</a></li>
+						<li><a href="#" class="二级菜单">工大党建</a></li>
+						<li><a href="#" class="二级菜单">团学工作</a></li>
+						<li><a href="#" class="二级菜单">学生工作</a></li>
+						<li><a href="#" class="二级菜单">国防生</a></li>
+						<li><a href="#" class="二级菜单">体育运动</a></li>
+						<li><a href="#" class="二级菜单">通识教育</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">办公查询</a>
+				    <ul id="二级菜单">
+				    	<li><a href="#" class="二级菜单">财务校内查询</a></li>
+				    	<li><a href="#" class="二级菜单">办公电话电邮</a></li>
+				    	<li><a href="#" class="二级菜单">教工邮箱登录</a></li>
+				    	<li><a href="#" class="二级菜单">学生邮箱登录</a></li>
+				    	<li><a href="#" class="二级菜单">学习统一门户</a></li>
+				    	<li><a href="#" class="二级菜单">网上办事大厅</a></li>
+				    	<li><a href="#" class="二级菜单">校内专题专栏</a></li>
+				    	<li><a href="#" class="二级菜单">办公服务</a></li>
+						<li style="height: 10px;"></li>
+				    </ul>
+				</li>
+				<li class="一级菜单">
+					<a href="#">公共服务</a>
+					<ul id="二级菜单">
+						<li><a href="#" class="二级菜单">校友总会</a></li>
+						<li><a href="#" class="二级菜单">教师培训</a></li>
+						<li><a href="#" class="二级菜单">普通话测试</a></li>
+						<li><a href="#" class="二级菜单">中国大学</a></li>
+						<li><a href="#" class="二级菜单">网络导航</a></li>
+						<li><a href="#" class="二级菜单">网络服务</a></li>
+						<li><a href="#" class="二级菜单">信息公开</a></li>
+						<li><a href="#" class="二级菜单">教工访问内网</a></li>
+						<li><a href="#" class="二级菜单">干部管理系统</a></li>
+						<li><a href="#" class="二级菜单">人事管理系统</a></li>
+						<li style="height: 10px;"></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="图">
+			<img src="banner-by-13.jpg" alt="" style="width: 100%;">
+		</div>
+		<div>
+			<span id="学校新闻">
+					<span style=" margin-right: 135px; font-size: 18px;">学校新闻</span>
+					<span style="font-size: 14px;"><a href="#" style="color: #666666;">进入新闻网</a></span>
+					<img src="more_too.jpg" alt="">
+					<hr style="margin: 5px 0;"> 
+				<ul>
+					<li><a href="#">学校新闻</a></li>
+					<li><a href="#">学校新闻</a></li>
+					<li><a href="#">学校新闻</a></li>
+					<li><a href="#">学校新闻</a></li>
+					<li><a href="#">学校新闻</a></li>
+					<li><a href="#">学校新闻</a></li>
+				</ul>
+			</span>
+			<span id="不忘初心">
+				<span style="  font-size: 18px;color: red;">不忘初心 牢记使命&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span style="font-size: 14px;"><a href="#" style="color: #666666;">更多</a></span>
+				<img src="more_too.jpg" alt="">
+				 <hr style="margin: 5px 0;"> 
+				<ul>
+					<li><a href="#">不忘初心</a></li>
+					<li><a href="#">不忘初心</a></li>
+					<li><a href="#">不忘初心</a></li>
+					<li><a href="#">不忘初心</a></li>
+					<li><a href="#">不忘初心</a></li>
+					<li><a href="#">不忘初心</a></li>
+				</ul>
+			</span>
+			<span id="图片新闻">
+				<span style="  font-size: 18px;">图片新闻&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span style="font-size: 14px;"><a href="#" style="color: #666666;">更多</a></span>
+				<img src="more_too.jpg" alt="">
+				 <hr style="margin: 5px 0;"> 
+				 <!-- 图片 -->
+				 <img src="j22.bmp" alt="" id="tu" style=" width: 250px;height: 168px;margin-top:10px ; display:inline-block;position: relative;left:25px;">
+				 <span id="btn">
+				 	<span id="t1"><a href="">1</a></span>
+				 	<span id="t2"><a href="">2</a></span>
+				 	<span id="t3"><a href="">3</a></span>
+				 </span>
+				 
+			</span>
+		</div>
+		<div id="背景">
+			<span id="媒体工大">
+				<span style=" margin-right: 135px; font-size: 18px;">媒体工大&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span style="font-size: 14px;"><a href="#" style="color: #666666;">更多</a></span>
+				<img src="more_too.jpg" alt="">
+				<hr style="margin: 5px 0;"> 
+				<ul>
+					<li><a href="#">媒体工大</a></li>
+					<li><a href="#">媒体工大</a></li>
+					<li><a href="#">媒体工大</a></li>
+					<li><a href="#">媒体工大</a></li>
+					<li><a href="#">媒体工大</a></li>
+					<li><a href="#">媒体工大</a></li>
+				</ul>            
+			</span>               
+			<span id="教务通知">   
+				<span style="  font-size: 18px;">教务通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span style="font-size: 14px;"><a href="#" style="color: #666666;">更多</a></span>
+				<img src="more_too.jpg" alt="">
+				<hr style="margin: 5px 0;"> 
+				<ul>             
+					<li><a href="#">教务通知</a></li>
+					<li><a href="#">教务通知</a></li>
+					<li><a href="#">教务通知</a></li>
+					<li><a href="#">教务通知</a></li>
+					<li><a href="#">教务通知</a></li>
+					<li><a href="#">教务通知</a></li>
+				</ul>            
+			</span>               
+			<span id="学生工作">   
+			<span style=" margin-right: 135px; font-size: 18px;">学生工作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<span style="font-size: 14px;"><a href="#" style="color: #666666;">更多</a></span>
+			<img src="more_too.jpg" alt="">
+			<hr style="margin: 5px 0;"> 
+				<ul>             
+					<li><a href="#">学生工作</a></li>
+					<li><a href="#">学生工作</a></li>
+					<li><a href="#">学生工作</a></li>
+					<li><a href="#">学生工作</a></li>
+					<li><a href="#">学生工作</a></li>
+					<li><a href="#">学生工作</a></li>
+				</ul>
+			</span>
+		</div>
+		<div id="底部">
+			<span style="position: relative;left: 550px;bottom: 36px;">www.gdut.edu.cn &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 粤ICP备05008833号 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 广州市番禺区广州大学城外环西路100号(510006)</span>
+			<span style="margin-left: 30px;position: relative;left: 550px;bottom: 36px;"><a href="#">webmaster</a></span>
+			<img src="blue.png" alt="" style="position: relative;right: -700px;">
+		</div>
+	</body>
+	<script type="text/javascript">
+			var index = 0;
+			
+			var tu=["j22.bmp","qipao11.jpg","dan11.bmp"];
+			
+			var img1 = document.getElementById("tu");
+			
+			 var t1 = document.getElementById("t1");
+			 t1.onmouseover=function(){
+			 	var img1 = document.getElementById("tu");
+			 	img1.src = "j22.bmp";
+				t1.style.backgroundColor="#FFE1E1" ;
+				t2.style.backgroundColor="#F0F0F0" ;
+				t3.style.backgroundColor="#F0F0F0" ;
+			 	index=0;
+			 }
+			
+			 var t2 = document.getElementById("t2");
+			 t2.onmouseover=function(){
+			 	var img1 = document.getElementById("tu");
+			 	img1.src ="qipao11.jpg";
+				t2.style.backgroundColor="#FFE1E1" ;
+				t1.style.backgroundColor="#F0F0F0" ;
+				t3.style.backgroundColor="#F0F0F0" ;
+			 	index=1;
+			 }
+			
+			 var t3 = document.getElementById("t3");
+			 t3.onmouseover=function(){
+			 	var img1 = document.getElementById("tu");
+			 	img1.src = "dan11.bmp";
+				t3.style.backgroundColor="#FFE1E1" ;
+				t2.style.backgroundColor="#F0F0F0" ;
+				t1.style.backgroundColor="#F0F0F0" ;
+			 	index=2;
+			
+			 }
+			
+			setInterval(function(){
+				
+				var t1 = document.getElementById("t1");
+				var t2 = document.getElementById("t2");
+				var t3 = document.getElementById("t3");
+				var ti=[document.getElementById("t1"),document.getElementById("t2"),document.getElementById("t3")];
+				
+				index++;
+				
+				if(index==3){
+					index=0;
+					}	
+				
+				img1.src=tu[index];
+				t1.style.backgroundColor="#F0F0F0"
+				t2.style.backgroundColor="#F0F0F0"
+				t3.style.backgroundColor="#F0F0F0"
+				ti[index].style.backgroundColor="#FFE1E1";
+				
+			},8000);	
+			
+			
+	</script>
+</html>
